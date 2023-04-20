@@ -52,6 +52,16 @@ export const Tertiary: Story = {
 export const CustomFontColor: Story = {
   args: {
     size: 'h1',
-    label: 'My Label'
+    label: 'My Label',
+    fontColor: '#5517ac'
+  }
+}
+
+export const CustomBackgroundColor: Story = {
+  args: {
+    size: 'h1',
+    label: 'My Label',
+    fontColor: '#eee',
+    backgroundColor: '#000'
   }
 }
