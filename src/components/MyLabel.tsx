@@ -51,3 +51,5 @@ export const MyLabel: FC<MyLabelProps> = ({
     </span>
   )
 }
+
+export default MyLabel
